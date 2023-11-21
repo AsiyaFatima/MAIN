@@ -26,5 +26,22 @@ do-while loop.
 4. Write a C program to read a sentence and replace lowercase characters with uppercase and vice
 versa.
 5. Write a C program to print all unique elements in an array.
-   
-___________________________________________________________________________
+
+LAB 3
+EXERCISES
+1. Write a program in C to swap elements using call by reference.
+2. Write a program in C to print a string in reverse using pointers.
+3.Write a C program to input and print array elements using pointers.
+4. Write a C program to search for an element in an array using pointers. 
+
+LAB 4
+EXERCISES
+1. Write a program that simulates a simple address book. Define a structure to store contact
+information (name, email, phone number). Allow the user to add new contacts to the
+address book dynamically. Use dynamic memory allocation for storing the contacts using
+malloc and update the memory allocation using realloc when adding new contacts.
+Implement an option to delete a contact and free the memory. Ensure that memory is
+properly managed throughout the program's execution.
+2. Write a C program to merge two sorted singly linked lists into a single sorted linked list.
+3. Write a C program that converts a singly linked list into an array and returns it.
+4. Write a C program that removes elements with odd indices from a singly linked list.__________________________________________________________________________
