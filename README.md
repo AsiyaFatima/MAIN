@@ -12,3 +12,19 @@ Height>=165cm – Tall).
 4. Write a program in C to convert a decimal number to a binary number using functions.
 5. Write a function to calculate the nth Fibonacci number and call it recursively to print
 the Fibonacci series.
+
+LAB 2
+EXERCISES
+1. Write a C program to display the first n odd natural numbers and their sum using for, while and
+do-while loop.
+2. Write a C program to make the following pattern as a pyramid with an asterisk.
+   *
+  * *
+ * * *
+* * * *
+3. Write a C program to compare two strings without using string library functions.
+4. Write a C program to read a sentence and replace lowercase characters with uppercase and vice
+versa.
+5. Write a C program to print all unique elements in an array.
+   
+___________________________________________________________________________
