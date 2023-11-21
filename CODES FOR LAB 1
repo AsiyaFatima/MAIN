@@ -1,0 +1,128 @@
+//Q1
+#include <stdio.h>
+int main() {
+int id;
+float hoursWorked, hourlyRate, salary;
+printf("Enter the employee's ID: ");
+scanf("%d", &id);
+printf("Enter total hours worked in the month: ");
+scanf("%f", &hoursWorked);
+printf("Enter the hourly rate: ");
+scanf("%f", &hourlyRate);
+salary = hoursWorked * hourlyRate;
+printf("Employee ID: %d\n", id);
+printf("Salary for the month: $%.2f\n", salary);
+
+return 0;
+}
+
+//Q2
+#include <stdio.h>
+void decimalToBinary(int decimalNumber) {
+if (decimalNumber == 0) {
+return;
+ }
+decimalToBinary(decimalNumber / 2);
+printf("%d", decimalNumber % 2);
+}
+int main() {
+int decimalNumber;
+printf("Enter a decimal number: ");
+scanf("%d", &decimalNumber);
+printf("Binary equivalent: ");
+decimalToBinary(decimalNumber);
+printf("\n");
+return 0;
+ }
+
+//Q2
+#include <stdio.h>
+int main() {
+float width, height, area, perimeter;
+printf("Enter the height of the rectangle: ");
+scanf("%f", &height);
+printf("Enter the width of the rectangle: ");
+scanf("%f", &width);
+area = height * width;
+perimeter = 2 * (height + width);
+printf("Area of the rectangle: %.2f\n", area);
+printf("Perimeter of the rectangle: %.2f\n", perimeter);
+return 0;
+}
+
+//Q3
+#include <stdio.h>
+ 
+ int main() {
+ float height;
+ printf("Enter the height of the person in centimeters: ");
+ scanf("%f", &height);
+ if (height < 150.0) {
+ printf("The person is classified as: Dwarf\n");
+ } 
+else if (height < 165.0) {
+printf("The person is classified as: Average\n");
+}
+else {
+printf("The person is classified as: Tall\n");
+}
+return 0;
+}
+
+
+//Q4
+#include <stdio.h>
+void decimalToBinary(int decimalNumber) {
+if (decimalNumber == 0) {
+return;
+ }
+decimalToBinary(decimalNumber / 2);
+printf("%d", decimalNumber % 2);
+}
+int main() {
+int decimalNumber;
+printf("Enter a decimal number: ");
+scanf("%d", &decimalNumber);
+printf("Binary equivalent: ");
+decimalToBinary(decimalNumber);
+printf("\n");
+return 0;
+}
+
+//Q5
+#include<stdio.h>
+int fibo(int a, int b, int num)
+{
+int z;
+if(num == 0)
+{
+printf("\nEnd of series");
+return 0;
+}
+else
+{
+z = a + b;
+printf(" %d", z);
+return fibo(b, z, num - 1);
+}
+}
+int main(){
+int num;
+printf("Fibonacci series:\nEnter nth term of the Fibonacci series: ");
+scanf("%d", &num);
+if(num > 0) printf("0");
+if(num > 1) printf(" 1");
+fibo(0, 1, num - 2);
+return 0;
+
+
+
+
+
+
+
+
+
+
+
+
